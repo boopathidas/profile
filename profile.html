@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 70%;
+            margin: 20px auto;
+            background-color:pink;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile-header {
+            text-align:center;
+            margin-bottom: 20px;
+            background-color:#87CEFA;
+        }
+        .profile-header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 5px solid #ddd;
+            
+        }
+        .profile-header h1 {
+            font-size: 24px;
+            color: #333;
+        }
+        .profile-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .profile-section {
+            width: 48%;
+            margin-bottom: 20px;
+            font-style: bold;
+        }
+        .profile-section h3 {
+            font-size: 20px;
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+        .profile-section p {
+            font-size: 16px;
+            color: #555;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .education-info p{
+            color:#333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profile Header Section -->
+        <div class="profile-header">
+            <img src="images/25.jpg" alt="Profile Picture">
+            <h1>Rohini N Ramatirth</h1>
+        </div>
+
+        <!-- Profile Content Section -->
+        <div class="profile-content">
+            <!-- Contact Info Section -->
+            <div class="profile-section contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Email:</strong> <a href="mailto:rohiniramatirth.com">rohiniramatirth03@gmail.com</a></p>
+                <p><strong>Phone:</strong> 9353324046</p>
+            </div>
+            <!-- Education Info Section -->
+            <div class="profile-section education-info">
+                <h3>Education Information</h3>
+                <p><strong>Graduation</strong><ul><li>College: Jain College Of Engineering Belagavi</li>
+                <li>Course: B.E(Computer Science)</li>
+                <li>CGPA: 8.6</li></ul></p>
+                <p><strong>Class 12th</strong>
+                <ul><li>Percentage: 80.83%</li></ul></p>
+                <p><strong>Class 10th</strong><ul><li>Percentage: 82.40</li></ul></p>
+            </div>
+            <!-- Personal Info Section -->
+            <div class="profile-section">
+                <h3>Personal Information</h3>
+                <p><strong>Location:</strong> Mudhol,Karnataka</p>
+                <p><strong>Skills:</strong><ul><li>Basic c programming</li><li> Python</li><li> HTML</li><li>Basic SQL</li></br></ul></p>
+            </div>
+            <div class="profile-section project-info">
+                <h3>Project Information</h3>
+                <p><strong>Projects:</strong><ul><li>Mental Health Support Using AI Chatbot</li><li>Smart Street Light System Itegration With LDR Sensor</li>
+                <li>Recognition of Face Emotion In Real Time</li><li>Interview Preparation website</li></ul></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
